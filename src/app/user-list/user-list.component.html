@@ -1,0 +1,27 @@
+<!-- <div class="list">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let user of userList" >
+            <div class="card">
+                <img class="card-img-top" [src]="user.avatar" alt="Card image cap">
+                <div class="card-body">
+                 <span>{{user.first_name}}</span>
+                 <span>{{user.last_name}}</span>
+                </div>
+              </div>
+        </div>
+    </div> 
+</div> -->
+
+<div class="list">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let photo of photos" >
+            <div class="card">
+                <img class="card-img-top" [src]="photo.thumbnailUrl" alt="Card image cap">
+                <div class="card-body">
+                 <span>{{photo.title}}</span>
+        
+                </div>
+              </div>
+        </div>
+    </div> 
+</div>
